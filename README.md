@@ -63,11 +63,6 @@ src/main/resources/DbScripts
 mvn clean install
 ```
 
-
-```bash
-/api/v2/users
-```
-
 ## Contributing
 Pull requests are welcome.
 
