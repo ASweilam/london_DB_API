@@ -6,7 +6,7 @@ A reimplementation of the [London API](https://github.com/ASweilam/londonapi).
 This API uses a PostGreSQL database as a datasource rather than an external API. It is a proof-of-concept on utilising a different datasource. This is to avoid the situation where the external API may be down at some point. 
 
 - CRUD operations
-- Get users who are 50 Miles from London.
+- Get users who are within 50 Miles of London.
 
 ## Endpoints
 
@@ -46,7 +46,7 @@ http://localhost:8080//api/v2/users/{id}
 - Clone the project.
 
 ```bash
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/ASweilam/london_v2.git
 ```
 
 - The project uses PostGreSQL as a datasource. Download and install [PostGreSQL](https://www.postgresql.org/download/).
